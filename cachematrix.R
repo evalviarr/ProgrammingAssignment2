@@ -4,6 +4,7 @@
 ## The two functions of the script are makeCacheMatrix and cacheSolve.
 ## makeCacheMatrix creates a special "matrix" object.
 ## makeCacheMatrix consists of set, get, setInverse, and getInverse.
+## the functions make use of the operator "<<-"
 
 makeCacheMatrix <- function(x = matrix()) {
 	inv <- NULL
